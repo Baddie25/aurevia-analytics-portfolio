@@ -289,3 +289,56 @@ Implementation will be incremental:
 8. Project 8: Integrated executive decision support.
 
 Only the tables required for each project's defined analytical objectives will be implemented at that stage.
+
+
+
+## Geographic Hierarchy
+
+Aurevia Group uses a four-level geographic hierarchy:
+
+Global → Region → Cluster → Country
+
+This structure allows management to analyze performance at different levels of geographic detail.
+
+### Hierarchy
+
+- **Global:** Aurevia Group
+- **Region:** Europe, North America, Emerging Markets
+- **Cluster:** Management-defined geographic groupings within each region
+- **Country:** Individual operating markets
+
+### Example
+
+| Region | Cluster | Countries |
+|---|---|---|
+| Europe | Northern Europe | United Kingdom, Netherlands |
+| Europe | Central Europe | Germany |
+| Europe | Southern Europe | France, Spain, Italy |
+| North America | US & Canada | United States, Canada |
+| North America | Mexico | Mexico |
+| Emerging Markets | Latin America | Brazil |
+| Emerging Markets | South Asia | India |
+| Emerging Markets | Southern Africa | South Africa |
+| Emerging Markets | Middle East | United Arab Emirates |
+
+### Database Implementation
+
+The geographic hierarchy is implemented through:
+
+- `dim_region`
+- `dim_cluster`
+- `dim_country`
+
+Relationships:
+
+```text
+dim_region
+    |
+    └── dim_cluster
+            |
+            └── dim_country
+```
+
+The `dim_country` table contains a foreign key to `dim_cluster`, while `dim_cluster` contains a foreign key to `dim_region`.
+
+Clusters are management-defined analytical groupings and may be revised as Aurevia's geographic strategy evolves.
