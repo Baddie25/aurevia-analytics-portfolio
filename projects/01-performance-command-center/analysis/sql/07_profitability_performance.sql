@@ -14,7 +14,29 @@
 
 
 -- ------------------------------------------------------------
--- 1. Profitability by Division
+-- 1. Enterprise Profitability
+-- ------------------------------------------------------------
+
+SELECT
+    COUNT(DISTINCT fs.order_id) AS unique_orders,
+
+    ROUND(SUM(fs.net_sales_amount), 2) AS net_revenue,
+
+    ROUND(SUM(fs.product_cost_amount), 2) AS product_cost,
+
+    ROUND(SUM(fs.gross_profit_amount), 2) AS gross_profit,
+
+    ROUND(
+        SUM(fs.gross_profit_amount)
+        / NULLIF(SUM(fs.net_sales_amount), 0) * 100,
+        2
+    ) AS gross_margin_pct
+
+FROM fact_sales fs;
+
+
+-- ------------------------------------------------------------
+-- 2. Profitability by Division
 -- ------------------------------------------------------------
 
 SELECT
@@ -50,7 +72,7 @@ ORDER BY
 
 
 -- ------------------------------------------------------------
--- 2. Profitability by Channel
+-- 3. Profitability by Channel
 -- ------------------------------------------------------------
 
 SELECT
@@ -72,8 +94,11 @@ SELECT
 
 FROM fact_sales fs
 
+JOIN dim_customer c
+    ON fs.customer_id = c.customer_id
+
 JOIN dim_channel ch
-    ON fs.channel_id = ch.channel_id
+    ON c.channel_id = ch.channel_id
 
 GROUP BY
     ch.channel_name
@@ -83,7 +108,7 @@ ORDER BY
 
 
 -- ------------------------------------------------------------
--- 3. Profitability by Product
+-- 4. Profitability by Product
 -- ------------------------------------------------------------
 
 SELECT
@@ -123,7 +148,7 @@ ORDER BY
 
 
 -- ------------------------------------------------------------
--- 4. Profitability by Customer
+-- 5. Profitability by Customer
 -- ------------------------------------------------------------
 
 SELECT

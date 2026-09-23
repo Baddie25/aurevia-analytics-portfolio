@@ -656,23 +656,44 @@ ORDER BY refund_amount DESC;
 -- ============================================================
 -- 9. MONTHLY RETURN TREND
 -- ============================================================
+--
+-- Return rate is measured against the month in which the
+-- original sale occurred, using sales_id to associate each
+-- return with its originating sale.
+--
+-- This avoids comparing returns recorded in one month with
+-- sales recorded in a different month.
+-- ============================================================
 
 WITH sales_by_month AS (
     SELECT
         DATE_TRUNC('month', order_date)::date AS month,
+
         SUM(quantity) AS units_sold,
+
         SUM(net_sales_amount) AS net_revenue
+
     FROM fact_sales
-    GROUP BY DATE_TRUNC('month', order_date)
+
+    GROUP BY
+        DATE_TRUNC('month', order_date)
 ),
 
-returns_by_month AS (
+returns_by_sale_month AS (
     SELECT
-        DATE_TRUNC('month', return_date)::date AS month,
-        SUM(returned_quantity) AS units_returned,
-        SUM(refund_amount) AS refund_amount
-    FROM fact_returns
-    GROUP BY DATE_TRUNC('month', return_date)
+        DATE_TRUNC('month', fs.order_date)::date AS month,
+
+        SUM(fr.returned_quantity) AS units_returned,
+
+        SUM(fr.refund_amount) AS refund_amount
+
+    FROM fact_returns fr
+
+    JOIN fact_sales fs
+        ON fr.sales_id = fs.sales_id
+
+    GROUP BY
+        DATE_TRUNC('month', fs.order_date)
 )
 
 SELECT
@@ -700,7 +721,8 @@ SELECT
 
 FROM sales_by_month sm
 
-FULL OUTER JOIN returns_by_month rm
+FULL OUTER JOIN returns_by_sale_month rm
     ON sm.month = rm.month
 
-ORDER BY month;
+ORDER BY
+    month;
