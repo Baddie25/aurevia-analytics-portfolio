@@ -14,6 +14,8 @@ Overall, Aurevia's performance challenge is not characterized by a broad deterio
 
 The analysis therefore points to a set of management questions rather than a single explanation for performance. In particular, management should investigate what is driving changes in revenue scale, how sustainable the current concentration of revenue and gross profit is, where discounting is economically justified, and which areas require deeper analysis before additional investment or corrective action.
 
+---
+
 ## 1. Enterprise Performance
 
 Aurevia's enterprise performance shows a decline in net revenue through 2024, followed by a modest recovery in 2025. Gross profit moved broadly in line with net revenue, while gross margin remained stable throughout the period.
@@ -144,7 +146,7 @@ Management should monitor the concentration of revenue across Retail and Distrib
 
 ## 5. Discounting & Revenue Realization
 
-Aurevia generated £191,888.18 in gross revenue across the analysis period and provided £8,920.50 in discounts, resulting in £182,967.68 of net revenue. The enterprise discount rate was 4.65%, corresponding to a revenue realization rate of 95.35%.
+Aurevia generated £191,888.18 in gross revenue across the analysis period and provided £8,920.50 in discounts, resulting in £182,967.68 in net revenue. The enterprise discount rate was 4.65%, corresponding to a revenue realization rate of 95.35%.
 
 ### Enterprise and division performance
 
@@ -221,87 +223,141 @@ Management should monitor return exposure at product, customer, channel, and cou
 
 ---
 
-## 7. Cross-Analysis
+## 7. Target vs Actual Performance
+
+Project 1 also includes a target-versus-actual analysis to demonstrate how management could evaluate performance against an explicit planning benchmark.
+
+The target dataset contains 1,257 target records covering 48 monthly periods from January 2022 through December 2025. The targets align with the full period for which sales data is available.
+
+### Target methodology
+
+The current targets are **illustrative planning benchmarks**, not historical management targets or approved budgets.
+
+They were generated using a transparent synthetic methodology:
+
+> Target = simulated actual baseline × 1.05
+
+Revenue and gross-profit targets therefore represent a 5% uplift over the corresponding simulated actual baseline, while order targets apply a 5% uplift to the relevant baseline order count.
+
+This methodology was selected to provide a reproducible benchmark for demonstrating target-versus-actual analysis within the fictional Aurevia environment. It should not be interpreted as a conventional management target-setting methodology.
+
+### Interpretation
+
+The target-versus-actual analysis provides a framework for identifying variance across month, division, region, and channel. Because the current targets are deliberately constructed from the same simulated actual baseline with a 5% uplift, the resulting negative variances are expected by design.
+
+The analysis therefore demonstrates the mechanics of target tracking and variance analysis rather than establishing that Aurevia historically missed approved management targets.
+
+The target analysis should be interpreted as a **portfolio analytics capability**: it shows how actual performance can be compared with a defined planning benchmark and how management could identify areas requiring further investigation.
+
+### Management implication
+
+A mature management-performance framework would distinguish between actual performance, forecasts, management targets, and external or internal benchmarks.
+
+For future planning scenarios, Aurevia could introduce independently established management targets based on strategic priorities, historical performance, operational drivers, pricing and volume assumptions, market conditions, and management expectations.
+
+The current target layer provides the technical foundation for that framework while maintaining a clear distinction between simulated benchmark methodology and genuine management planning assumptions.
+
+---
+
+## 8. Cross-Analysis
 
 The individual analyses show that Aurevia's performance cannot be explained by a single enterprise-level KPI. The business experienced a decline in revenue scale through 2024 while maintaining stable gross-margin economics, and the distribution of value across products, customers, channels, and markets is uneven.
 
 Several themes emerge when the analyses are considered together.
 
-### 7.1 Revenue pressure without broad margin deterioration
+### 8.1 Revenue pressure without broad margin deterioration
 
 Aurevia's net revenue declined through 2024, while gross margin remained within a narrow range of 62.40% to 62.50%. Gross profit therefore moved broadly in proportion to revenue.
 
 This suggests that the immediate management question is not simply whether Aurevia is becoming less profitable at the product level, but what is affecting the scale and composition of revenue.
 
-### 7.2 Economic contribution is concentrated
+### 8.2 Economic contribution is concentrated
 
 A relatively small number of products and customers account for a substantial share of Aurevia's revenue and gross profit. The five products generating the highest gross profit contributed approximately 66.4% of total gross profit, while the five largest customers represented approximately 44.6% of net revenue.
 
 This concentration creates areas of material commercial importance that warrant continued management attention.
 
-### 7.3 Margin percentage and economic contribution are different measures
+### 8.3 Margin percentage and economic contribution are different measures
 
 The analyses show that the products and channels with the highest gross-margin percentages are not necessarily those contributing the largest absolute amount of gross profit.
 
 Management should therefore consider both **margin percentage** and **absolute economic contribution** when assessing performance.
 
-### 7.4 Discounting varies across the portfolio
+### 8.4 Discounting varies across the portfolio
 
 The enterprise discount rate was 4.65%, but discounting varied across divisions, channels, and division-channel combinations.
 
 This creates a potential area for deeper investigation. However, the current analysis does not establish whether higher discounts are economically inefficient because the commercial purpose and incremental benefits of those discounts have not been measured.
 
-### 7.5 Channel concentration and margin similarity
+### 8.5 Channel concentration and margin similarity
 
 Retail and Distributors accounted for approximately 60.03% of net revenue, while channel gross margins remained relatively similar.
 
 This means that Aurevia's channel exposure is driven more by differences in revenue scale than by large differences in gross-margin percentage.
 
-### 7.6 Returns create concentrated rather than broad exposure
+### 8.6 Returns create concentrated rather than broad exposure
 
 The enterprise return rate was 1.76%, but higher return rates were observed for specific products, customers, channels, and countries.
 
 The financial significance of returns should therefore be assessed using both return rates and absolute economic exposure rather than relying on the enterprise rate alone.
 
-### 7.7 Geographic performance requires deeper examination
+### 8.7 Geographic performance requires deeper examination
 
 Regional and country-level results show meaningful variation in both commercial scale and return exposure. The geographic analysis identifies areas that warrant further investigation but does not establish the underlying causes of those differences.
 
+### 8.8 Target variance provides a management-performance framework
+
+The target-versus-actual analysis demonstrates how Aurevia could monitor performance against defined planning benchmarks across time and business dimensions.
+
+However, because the current targets are synthetic 5% uplift benchmarks derived from simulated actuals, the observed variance should not be interpreted as evidence of historical management underperformance.
+
+The analysis instead establishes the technical and analytical foundation for future management-target scenarios in which targets could be independently established using strategic, operational, and market-based assumptions.
+
 ### Overall interpretation
 
-Taken together, the evidence suggests that Aurevia's central performance challenge is not a broad collapse in gross-margin economics. Instead, management needs to understand the factors affecting revenue scale while managing concentration, discounting variation, and operational exposure.
+Taken together, the evidence suggests that Aurevia's central performance challenge is not a broad collapse in gross-margin economics. Instead, management needs to understand the factors affecting revenue scale while managing concentration, discounting variation, operational exposure, and performance against defined planning benchmarks.
 
 The analysis therefore provides a diagnostic foundation for subsequent strategic work. It identifies where management attention may be required while distinguishing established evidence from questions that require deeper analysis.
 
-## 8. Management Priorities
+---
+
+## 9. Management Priorities
 
 The analysis identifies several areas that warrant management attention. These priorities are based on the evidence available in Project 1 and are intended to guide further investigation rather than prescribe a single course of action.
 
-### 8.1 Understand the drivers of revenue performance
+### 9.1 Understand the drivers of revenue performance
 
 Net revenue declined through 2024 before recovering modestly in 2025, while gross margin remained stable. Management should therefore investigate the factors affecting revenue scale, including changes in customers, products, channels, geographic markets, order activity, and product mix.
 
-### 8.2 Protect economically important products and customers
+### 9.2 Protect economically important products and customers
 
 A significant proportion of gross profit and net revenue is concentrated among a relatively small number of products and customers. Management should monitor these relationships and assess their sustainability, particularly where commercially important products or customers also show elevated operational exposure.
 
-### 8.3 Review discounting where variation is highest
+### 9.3 Review discounting where variation is highest
 
 Enterprise discounting is relatively contained, but certain division-channel combinations show materially higher discount rates. Management should understand the commercial purpose and incremental benefit of these discounts before determining whether changes are warranted.
 
-### 8.4 Monitor channel and geographic concentration
+### 9.4 Monitor channel and geographic concentration
 
 Retail and Distributors account for approximately 60.03% of net revenue, while geographic performance varies across countries. Management should consider the implications of this concentration and monitor areas where commercial scale and operational exposure are closely linked.
 
-### 8.5 Investigate concentrated return exposure
+### 9.5 Investigate concentrated return exposure
 
 The enterprise return rate is relatively contained, but higher return rates occur within specific products, customers, channels, and countries. Management should identify whether these concentrations reflect recurring product, fulfilment, customer-expectation, or other operational issues.
 
-### 8.6 Preserve the distinction between evidence and diagnosis
+### 9.6 Use target variance as a management-performance framework
+
+Target-versus-actual analysis can provide a useful framework for identifying performance gaps and prioritizing management investigation. However, the current targets are illustrative benchmarks rather than independently established management commitments.
+
+Future management planning should use targets based on explicit strategic and operational assumptions rather than relying solely on retrospective uplift from actual performance.
+
+### 9.7 Preserve the distinction between evidence and diagnosis
 
 Project 1 identifies where performance differs, but not every observed difference has an established cause. Management should avoid treating correlation or concentration as proof of causation and use targeted follow-up analysis where the evidence is insufficient to support a decision.
 
-## 9. Areas Requiring Further Investigation
+---
+
+## 10. Areas Requiring Further Investigation
 
 Project 1 provides a diagnostic view of Aurevia's performance, but several questions require deeper analysis before management can determine specific corrective or investment actions.
 
@@ -341,13 +397,21 @@ Project 1 provides a diagnostic view of Aurevia's performance, but several quest
 - Which return reasons are potentially preventable?
 - What would be the economic benefit of reducing returns in the highest-exposure areas?
 
+### Target-setting and planning
+
+- What management targets would Aurevia set independently of historical actual performance?
+- Which strategic, operational, pricing, volume, margin, and market assumptions should inform those targets?
+- How would actual performance compare with an independently established management plan rather than a retrospective illustrative benchmark?
+
 ### Financial performance beyond gross profit
 
 Project 1 focuses on revenue, product cost, gross profit, and gross margin. A full operating-profit or EBITDA analysis is outside the current scope because the Project 1 model does not yet contain the detailed operating-expense structure required for a robust calculation.
 
 These questions provide natural inputs into later portfolio projects, including customer growth, pricing, supply chain, investment, and risk analysis.
 
-## 10. Appendix — KPI Definitions & Methodology
+---
+
+## Appendix — KPI Definitions & Methodology
 
 ### KPI definitions
 
@@ -366,9 +430,25 @@ These questions provide natural inputs into later portfolio projects, including 
 | Return Rate | Returned Units divided by Units Sold |
 | Active Customers | Distinct customers generating sales during the relevant period |
 
+### Target and variance definitions
+
+| KPI | Definition |
+|---|---|
+| Target Revenue | Illustrative planning benchmark for revenue |
+| Target Gross Profit | Illustrative planning benchmark for gross profit |
+| Target Orders | Illustrative planning benchmark for order volume |
+| Revenue Variance | Actual Revenue minus Target Revenue |
+| Revenue Variance % | Revenue Variance divided by Target Revenue |
+| Gross Profit Variance | Actual Gross Profit minus Target Gross Profit |
+| Gross Profit Variance % | Gross Profit Variance divided by Target Gross Profit |
+| Order Variance | Actual segment-level order count minus Target Orders |
+| Order Variance % | Order Variance divided by Target Orders |
+
+The current target dataset is constructed using a 5% uplift over the relevant simulated actual baseline. These targets are intended as illustrative planning benchmarks and should not be interpreted as historical management targets or approved budgets.
+
 ### Analytical methodology
 
-Project 1 uses a combination of SQL-based aggregation, comparative analysis, concentration analysis, and cross-dimensional performance analysis.
+Project 1 uses a combination of SQL-based aggregation, comparative analysis, concentration analysis, target-versus-actual variance analysis, and cross-dimensional performance analysis.
 
 The analysis evaluates performance across multiple business dimensions, including:
 
@@ -381,8 +461,11 @@ The analysis evaluates performance across multiple business dimensions, includin
 - Country
 - Discounting
 - Returns
+- Targets
 
 Enterprise-level performance is calculated from the underlying sales and product-cost data. Revenue and gross-profit measures are aggregated independently before ratios such as gross margin and growth rates are calculated.
+
+Target-versus-actual analysis aggregates actual sales at the month × division × region × channel grain before joining to the corresponding target records. This avoids duplicating actuals when target records are matched across the same dimensional grain.
 
 Return analysis uses returned units relative to total units sold. Return-related financial exposure is estimated using the product cost associated with returned units.
 
@@ -391,17 +474,21 @@ Return analysis uses returned units relative to total units sold. Return-related
 The analysis distinguishes between:
 
 1. **Descriptive evidence** — what the data shows.
+
 2. **Interpretation** — what the observed pattern may indicate.
+
 3. **Management implication** — what question or area of attention follows from the evidence.
 
 Observed relationships are not treated as proof of causation. Where the available data does not establish why a performance difference occurred, the issue is identified as an area requiring further investigation.
 
+Target-versus-actual results are also interpreted in the context of the target methodology. Because the current targets are synthetic retrospective benchmarks, the variance results demonstrate analytical technique rather than independently validated historical management performance.
+
 ### Scope limitations
 
-Project 1 focuses on commercial performance and product-level economics through revenue, discounts, product cost, gross profit, gross margin, and returns.
+Project 1 focuses on commercial performance and product-level economics through revenue, discounts, product cost, gross profit, gross margin, targets, and returns.
 
 The analysis does not currently include a full operating-expense structure, EBITDA, operating profit, or cash-flow analysis. These measures require additional financial data and are therefore outside the current Project 1 scope.
 
-The analysis is also primarily diagnostic. It identifies performance patterns, concentrations, and areas requiring management attention but does not attempt to establish causal relationships where the available data is insufficient.
+The target dataset is synthetic and designed for analytical demonstration. It does not represent approved budgets, historical management commitments, or independently validated forecasts.
 
----
+The analysis is also primarily diagnostic. It identifies performance patterns, concentrations, target variances, and areas requiring management attention but does not attempt to establish causal relationships where the available data is insufficient.

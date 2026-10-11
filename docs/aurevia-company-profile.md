@@ -62,11 +62,17 @@ Aurevia's commercial model follows this chain:
 
 Products → Customers → Channels → Markets → Revenue
 
-The economic chain is:
+The Project 1 performance model focuses on:
 
-Revenue → Discounts → Net Revenue → Product Cost
-→ Gross Profit → Logistics and Operating Costs
-→ Contribution → Cash Flow
+Gross Revenue → Discounts → Net Revenue → Product Cost → Gross Profit
+
+Returns are modelled separately and are used to assess returned units, refund value, and estimated gross-profit impact.
+
+The broader business model extends beyond Project 1 into:
+
+Gross Profit → Operating Costs → Contribution → Cash Flow
+
+These additional financial measures will be introduced in later portfolio projects as the finance data domain is developed.
 
 ## 7. Business Timeline
 
@@ -107,18 +113,24 @@ Aurevia has grown rapidly. Management needs to understand where growth comes fro
 
 ## 10. Analytical Scope
 
-Project 1 will focus on enterprise performance using:
+Project 1 focuses on enterprise performance using:
 
-- Commercial data
-- Finance data
-- Pricing data
+- Commercial and transactional sales data
+- Product cost and gross-profit measures
+- Discount and pricing-related transaction measures
+- Returns and refund data
+- Illustrative performance targets
 - SQL analysis
-- Python diagnostics
+- Python diagnostics and validation
 - Power BI reporting
 - Executive decision recommendations
+
+The broader Finance and Pricing data domains will be developed progressively in later portfolio projects.
 
 ## 11. Key Assumptions
 
 This is a fictional business environment designed for analytical and strategic learning.
 
-Business patterns, financial figures, customer behavior, and operational outcomes will be documented and validated as the data universe is developed.
+Business patterns, financial figures, customer behavior, and operational outcomes are simulated and documented as the data universe is developed.
+
+Project 1 uses a deliberately scoped analytical model. Not all business processes described in the broader company profile are represented in the initial database.
