@@ -1,0 +1,13 @@
+product_code,product_name,division,aurevia_category,external_research_category,research_note
+PC-001,Hydrating Body Wash,Personal Care,Body Care,Body wash and bath products,Separate premium and mass-market segments where evidence allows
+PC-002,Daily Facial Cleanser,Personal Care,Skincare,Facial cleansing and skincare,Distinguish facial cleansing from the wider skincare market
+PC-003,Nourishing Hand Cream,Personal Care,Hand Care,Hand care and hand moisturisers,Check whether sources report hand care separately or within skincare
+HL-001,Scented Home Candle,Home & Lifestyle,Home Fragrance,Home fragrance and scented candles,Use candle-specific data where available; do not equate all home fragrance with candles
+HL-002,Multi-Surface Cleaner,Home & Lifestyle,Home Cleaning,Household surface cleaning products,Check household versus professional cleaning definitions
+HL-003,Reusable Storage Set,Home & Lifestyle,Home Organization,Household storage and organisation products,Use relevant storage-product evidence rather than the entire home furnishings market
+WE-001,Daily Vitamin Complex,Wellness,Supplements,Vitamins and dietary supplements,Verify local product classification and registration requirements
+WE-002,Herbal Sleep Support,Wellness,Sleep Wellness,Herbal supplements and sleep-support products,"Regulatory classification depends on ingredients, claims, and country"
+WE-003,Electrolyte Hydration Mix,Wellness,Sports Wellness,Sports hydration and electrolyte products,Distinguish powdered supplements from ready-to-drink beverages
+EE-001,Everyday Laundry Pods,Everyday Essentials,Laundry Care,Laundry detergents and laundry capsules,Check whether data distinguishes capsules or pods from other detergent formats
+EE-002,Kitchen Paper Towels,Everyday Essentials,Paper Products,Household paper towels and tissue products,Do not use the full paper and pulp market as a proxy for consumer demand
+EE-003,Household Essentials Bundle,Everyday Essentials,Household Bundles,Multi-category household essentials bundles,Do not treat this as a separate market without evidence; analyse its component categories

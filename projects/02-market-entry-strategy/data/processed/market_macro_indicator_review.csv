@@ -1,0 +1,57 @@
+country_code,country,indicator,indicator_value,unit,observation_year,interpretation_guidance
+AUS,Australia,Economic scale — GDP,1798518933689.21,Current US dollars,2025,Larger values indicate a larger overall economy.
+AUS,Australia,Population,27614411.0,People,2025,Larger values indicate a larger national population.
+AUS,Australia,GDP per capita,65129.7227990563,Current US dollars per person,2025,Average economic output per person in current US dollars.
+AUS,Australia,GDP per capita — PPP,71934.4033931263,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+AUS,Australia,Real GDP growth,1.35039785076631,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+AUS,Australia,Inflation,2.87403791660173,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+AUS,Australia,Population growth,1.53308964338105,Percent per year,2025,Annual population growth rate.
+CHL,Chile,Economic scale — GDP,357371159574.862,Current US dollars,2025,Larger values indicate a larger overall economy.
+CHL,Chile,Population,19859921.0,People,2025,Larger values indicate a larger national population.
+CHL,Chile,GDP per capita,17994.5911957485,Current US dollars per person,2025,Average economic output per person in current US dollars.
+CHL,Chile,GDP per capita — PPP,37774.0879069903,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+CHL,Chile,Real GDP growth,2.45925474781374,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+CHL,Chile,Inflation,4.21294031801535,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+CHL,Chile,Population growth,0.480257021978241,Percent per year,2025,Annual population growth rate.
+IDN,Indonesia,Economic scale — GDP,1445642584163.81,Current US dollars,2025,Larger values indicate a larger overall economy.
+IDN,Indonesia,Population,285721236.0,People,2025,Larger values indicate a larger national population.
+IDN,Indonesia,GDP per capita,5059.62596411213,Current US dollars per person,2025,Average economic output per person in current US dollars.
+IDN,Indonesia,GDP per capita — PPP,17659.7921291587,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+IDN,Indonesia,Real GDP growth,5.10808904438025,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+IDN,Indonesia,Inflation,1.91333443295079,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+IDN,Indonesia,Population growth,0.784708535785041,Percent per year,2025,Annual population growth rate.
+JPN,Japan,Economic scale — GDP,4435162999976.94,Current US dollars,2025,Larger values indicate a larger overall economy.
+JPN,Japan,Population,123366734.0,People,2025,Larger values indicate a larger national population.
+JPN,Japan,GDP per capita,35951.0449549304,Current US dollars per person,2025,Average economic output per person in current US dollars.
+JPN,Japan,GDP per capita — PPP,55421.8797530311,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+JPN,Japan,Real GDP growth,1.19311288444599,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+JPN,Japan,Inflation,3.17253034260247,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+JPN,Japan,Population growth,-0.492142838725375,Percent per year,2025,Annual population growth rate.
+KOR,South Korea,Economic scale — GDP,1872374961553.15,Current US dollars,2025,Larger values indicate a larger overall economy.
+KOR,South Korea,Population,51684564.0,People,2025,Larger values indicate a larger national population.
+KOR,South Korea,GDP per capita,36226.9663637512,Current US dollars per person,2025,Average economic output per person in current US dollars.
+KOR,South Korea,GDP per capita — PPP,63124.9152183625,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+KOR,South Korea,Real GDP growth,1.00701840291242,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+KOR,South Korea,Inflation,2.12309421458659,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+KOR,South Korea,Population growth,-0.128584337535563,Percent per year,2025,Annual population growth rate.
+POL,Poland,Economic scale — GDP,1035491784197.44,Current US dollars,2025,Larger values indicate a larger overall economy.
+POL,Poland,Population,36435861.0,People,2025,Larger values indicate a larger national population.
+POL,Poland,GDP per capita,28419.5777395638,Current US dollars per person,2025,Average economic output per person in current US dollars.
+POL,Poland,GDP per capita — PPP,54262.4040405236,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+POL,Poland,Real GDP growth,3.5727250346774,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+POL,Poland,Inflation,3.81419531520146,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+POL,Poland,Population growth,-0.338028518667454,Percent per year,2025,Annual population growth rate.
+SAU,Saudi Arabia,Economic scale — GDP,1276942933333.33,Current US dollars,2025,Larger values indicate a larger overall economy.
+SAU,Saudi Arabia,Population,36973555.0,People,2025,Larger values indicate a larger national population.
+SAU,Saudi Arabia,GDP per capita,34536.6555456551,Current US dollars per person,2025,Average economic output per person in current US dollars.
+SAU,Saudi Arabia,GDP per capita — PPP,73783.5613906833,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+SAU,Saudi Arabia,Real GDP growth,4.50246560191663,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+SAU,Saudi Arabia,Inflation,2.03559944812264,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+SAU,Saudi Arabia,Population growth,4.63120314543082,Percent per year,2025,Annual population growth rate.
+TUR,Turkey,Economic scale — GDP,1597293229287.0,Current US dollars,2025,Larger values indicate a larger overall economy.
+TUR,Turkey,Population,85878556.0,People,2025,Larger values indicate a larger national population.
+TUR,Turkey,GDP per capita,18599.4420922378,Current US dollars per person,2025,Average economic output per person in current US dollars.
+TUR,Turkey,GDP per capita — PPP,45288.4750285273,Current international dollars per person,2025,GDP per person adjusted for differences in purchasing power.
+TUR,Turkey,Real GDP growth,3.60462514082589,Percent per year,2025,Annual growth in inflation-adjusted economic output.
+TUR,Turkey,Inflation,34.8811700293777,Percent per year,2025,Annual consumer price inflation; high inflation can increase pricing uncertainty and operating costs.
+TUR,Turkey,Population growth,0.419954927193433,Percent per year,2025,Annual population growth rate.

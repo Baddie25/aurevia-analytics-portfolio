@@ -1,0 +1,6 @@
+country_code,country_name,market_value_usd_m,value_cagr_pct,market_value_period,cagr_period,evidence_status,market_value_rank,value_cagr_rank,value_growth_direction,interpretation_limit
+JPN,Japan,13950.0,-5.5,2024,2019-2024,Publisher summary checked; full report methodology not reviewed,1,5,Negative,Descriptive only; source comparability and full report methodology not yet verified
+KOR,South Korea,6560.0,2.0,2024,2019-2024,Publisher summary checked; full report methodology not reviewed,2,4,Positive,Descriptive only; source comparability and full report methodology not yet verified
+AUS,Australia,2530.0,4.5,2024,2019-2024,Publisher summary checked; full report methodology not reviewed,3,1,Positive,Descriptive only; source comparability and full report methodology not yet verified
+IDN,Indonesia,2520.0,2.2,2024,2019-2024,Publisher summary checked; full report methodology not reviewed,4,3,Positive,Descriptive only; source comparability and full report methodology not yet verified
+TUR,Turkey,753.9,3.4,2024,2019-2024,Publisher summary checked; full report methodology not reviewed,5,2,Positive,Descriptive only; source comparability and full report methodology not yet verified

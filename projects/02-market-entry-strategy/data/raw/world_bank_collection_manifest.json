@@ -1,0 +1,66 @@
+{
+  "source": "World Bank Indicators API",
+  "api_base_url": "https://api.worldbank.org/v2/",
+  "collection_window": {
+    "start_year": 2020,
+    "end_year": 2025
+  },
+  "countries": {
+    "POL": "Poland",
+    "SAU": "Saudi Arabia",
+    "AUS": "Australia",
+    "JPN": "Japan",
+    "KOR": "South Korea",
+    "IDN": "Indonesia",
+    "TUR": "Turkey",
+    "CHL": "Chile"
+  },
+  "indicators": [
+    {
+      "indicator_id": "ECON_GDP_NOMINAL",
+      "indicator_name": "GDP current US dollars",
+      "world_bank_code": "NY.GDP.MKTP.CD",
+      "source_url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD?format=json"
+    },
+    {
+      "indicator_id": "ECON_GDP_PER_CAPITA",
+      "indicator_name": "GDP per capita current US dollars",
+      "world_bank_code": "NY.GDP.PCAP.CD",
+      "source_url": "https://api.worldbank.org/v2/indicator/NY.GDP.PCAP.CD?format=json"
+    },
+    {
+      "indicator_id": "ECON_GDP_GROWTH",
+      "indicator_name": "Real GDP growth annual percent",
+      "world_bank_code": "NY.GDP.MKTP.KD.ZG",
+      "source_url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.KD.ZG?format=json"
+    },
+    {
+      "indicator_id": "CONS_POPULATION",
+      "indicator_name": "Total population",
+      "world_bank_code": "SP.POP.TOTL",
+      "source_url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json"
+    },
+    {
+      "indicator_id": "CONS_POPULATION_GROWTH",
+      "indicator_name": "Population growth annual percent",
+      "world_bank_code": "SP.POP.GROW",
+      "source_url": "https://api.worldbank.org/v2/indicator/SP.POP.GROW?format=json"
+    },
+    {
+      "indicator_id": "ECON_INFLATION",
+      "indicator_name": "Consumer price inflation annual percent",
+      "world_bank_code": "FP.CPI.TOTL.ZG",
+      "source_url": "https://api.worldbank.org/v2/indicator/FP.CPI.TOTL.ZG?format=json"
+    }
+  ],
+  "extraction_timestamp_utc": "2026-10-16T00:05:07.803832+00:00",
+  "processed_file": "data/processed/world_bank_macro_observations.csv",
+  "returned_observation_rows": 288,
+  "failures": [],
+  "notes": [
+    "Null observations are retained as null, not replaced with zero.",
+    "Observation year is preserved for each returned value.",
+    "API responses are saved separately under data/raw/.",
+    "Check failures and missing combinations before analytical use."
+  ]
+}

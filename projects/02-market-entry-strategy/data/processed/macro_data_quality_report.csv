@@ -1,0 +1,13 @@
+check_name,status,details,report_timestamp_utc
+Dataset readable,PASS,288 rows read; 0 parsing error(s).,2026-10-16T00:21:34.806685+00:00
+Country coverage,PASS,Found 8 countries; missing=[]; unexpected=[].,2026-10-16T00:21:34.806685+00:00
+Indicator coverage,PASS,Found 6 indicators; missing=[]; unexpected=[].,2026-10-16T00:21:34.806685+00:00
+Year coverage,PASS,"Found years=[2020, 2021, 2022, 2023, 2024, 2025]; missing=[]; unexpected=[].",2026-10-16T00:21:34.806685+00:00
+Unique country-indicator-year keys,PASS,0 duplicate key(s). Examples: [],2026-10-16T00:21:34.806685+00:00
+Expected observation count,PASS,Expected 288; found 288.,2026-10-16T00:21:34.806685+00:00
+Missing values,PASS,0 observation(s) have blank values. Review these rather than replacing them with zero.,2026-10-16T00:21:34.806685+00:00
+Required observation metadata,PASS,0 observation(s) have missing descriptive metadata.,2026-10-16T00:21:34.806685+00:00
+Broad plausibility bounds,PASS,0 value(s) outside broad review bounds. Examples: [],2026-10-16T00:21:34.806685+00:00
+Combination completeness,PASS,0 expected combination(s) absent. Examples: [],2026-10-16T00:21:34.806685+00:00
+Latest available observation years,INFO,Latest non-missing year by country and indicator: AUS FP.CPI.TOTL.ZG: 2025; AUS NY.GDP.MKTP.CD: 2025; AUS NY.GDP.MKTP.KD.ZG: 2025; AUS NY.GDP.PCAP.CD: 2025; AUS SP.POP.GROW: 2025; AUS SP.POP.TOTL: 2025; CHL FP.CPI.TOTL.ZG: 2025; CHL NY.GDP.MKTP.CD: 2025; CHL NY.GDP.MKTP.KD.ZG: 2025; CHL NY.GDP.PCAP.CD: 2025; CHL SP.POP.GROW: 2025; CHL SP.POP.TOTL: 2025; IDN FP.CPI.TOTL.ZG: 2025; IDN NY.GDP.MKTP.CD: 2025; IDN NY.GDP.MKTP.KD.ZG: 2025; IDN NY.GDP.PCAP.CD: 2025; IDN SP.POP.GROW: 2025; IDN SP.POP.TOTL: 2025; JPN FP.CPI.TOTL.ZG: 2025; JPN NY.GDP.MKTP.CD: 2025; JPN NY.GDP.MKTP.KD.ZG: 2025; JPN NY.GDP.PCAP.CD: 2025; JPN SP.POP.GROW: 2025; JPN SP.POP.TOTL: 2025; KOR FP.CPI.TOTL.ZG: 2025; KOR NY.GDP.MKTP.CD: 2025; KOR NY.GDP.MKTP.KD.ZG: 2025; KOR NY.GDP.PCAP.CD: 2025; KOR SP.POP.GROW: 2025; KOR SP.POP.TOTL: 2025; POL FP.CPI.TOTL.ZG: 2025; POL NY.GDP.MKTP.CD: 2025; POL NY.GDP.MKTP.KD.ZG: 2025; POL NY.GDP.PCAP.CD: 2025; POL SP.POP.GROW: 2025; POL SP.POP.TOTL: 2025; SAU FP.CPI.TOTL.ZG: 2025; SAU NY.GDP.MKTP.CD: 2025; SAU NY.GDP.MKTP.KD.ZG: 2025; SAU NY.GDP.PCAP.CD: 2025; SAU SP.POP.GROW: 2025; SAU SP.POP.TOTL: 2025; TUR FP.CPI.TOTL.ZG: 2025; TUR NY.GDP.MKTP.CD: 2025; TUR NY.GDP.MKTP.KD.ZG: 2025; TUR NY.GDP.PCAP.CD: 2025; TUR SP.POP.GROW: 2025; TUR SP.POP.TOTL: 2025,2026-10-16T00:21:34.806685+00:00
+Time-series plausibility,PASS,0 item(s) require review. Examples: [],2026-10-16T00:21:34.806685+00:00

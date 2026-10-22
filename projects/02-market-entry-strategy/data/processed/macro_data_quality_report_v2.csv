@@ -1,0 +1,11 @@
+check_name,status,details,report_timestamp_utc
+Dataset readable,PASS,336 rows read without CSV parsing errors.,2026-10-19T01:23:36.627283+00:00
+Country coverage,PASS,Found 8 countries; missing=[]; unexpected=[].,2026-10-19T01:23:36.627283+00:00
+Indicator coverage,PASS,Found 7 indicators; missing=[]; unexpected=[].,2026-10-19T01:23:36.627283+00:00
+Year coverage,PASS,"Found years=[2020, 2021, 2022, 2023, 2024, 2025]; missing=[]; unexpected=[].",2026-10-19T01:23:36.627283+00:00
+Unique country-indicator-year keys,PASS,0 duplicate key(s).,2026-10-19T01:23:36.627283+00:00
+Expected observation count,PASS,Expected 336; found 336.,2026-10-19T01:23:36.627283+00:00
+Valid numeric observations,PASS,0 invalid row(s). Examples: [],2026-10-19T01:23:36.627283+00:00
+Missing values,PASS,0 blank or missing value(s). Examples: [],2026-10-19T01:23:36.627283+00:00
+Required metadata,PASS,0 missing metadata field(s). Examples: [],2026-10-19T01:23:36.627283+00:00
+Broad plausibility ranges,PASS,0 value(s) outside broad ranges. Examples: [],2026-10-19T01:23:36.627283+00:00

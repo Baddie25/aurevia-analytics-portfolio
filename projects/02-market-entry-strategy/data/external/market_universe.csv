@@ -1,0 +1,9 @@
+country,external_geographic_region,aurevia_region,aurevia_cluster,cluster_status,market_status,category_opportunity_evidence,economic_evidence,consumer_evidence,competitive_evidence,strategic_fit_evidence,entry_feasibility_evidence,source_ids,eligibility_decision,exclusion_or_gap_reason,notes
+Poland,Europe,Europe,Central Europe,Existing,Provisional candidate,,,,,,,,Pending,,"Existing Aurevia cluster; country-level evidence required"
+Saudi Arabia,Middle East,Emerging Markets,Middle East,Existing,Provisional candidate,,,,,,,,Pending,,"Existing Aurevia cluster; country-level evidence required"
+Australia,Asia-Pacific,Proposed,Proposed,Proposed,Provisional candidate,,,,,,,,Pending,,"Internal geographic assignment requires a documented decision"
+Japan,East Asia,Proposed,Proposed,Proposed,Provisional candidate,,,,,,,,Pending,,"Internal geographic assignment requires a documented decision"
+South Korea,East Asia,Proposed,Proposed,Proposed,Provisional candidate,,,,,,,,Pending,,"Internal geographic assignment requires a documented decision"
+Indonesia,Southeast Asia,Proposed,Proposed,Proposed,Provisional candidate,,,,,,,,Pending,,"Internal geographic assignment requires a documented decision"
+Turkey,Europe and West Asia,Proposed,Proposed,Proposed,Provisional candidate,,,,,,,,Pending,,"Internal geographic assignment requires a documented decision"
+Chile,Latin America,Emerging Markets,Latin America,Existing,Provisional candidate,,,,,,,,Pending,,"Existing Aurevia cluster; country-level evidence required"
